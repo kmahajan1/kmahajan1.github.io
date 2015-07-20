@@ -16,7 +16,7 @@ nav {
   margin: 0 2% 0 2%;
 }
 
-nav a{
+nav a {
   color: white;
   margin: 8%;
 }
@@ -27,16 +27,23 @@ nav a:hover {
 
 .body_image {
   float: left;
-  margin: 5% 0 0 10%;
+  margin: 10% 0 0 5%;
 }
 
 .body_text {
   color: white;
-  text-align: center;
   background-color: #007ACC;
-  margin: 6% 25% 0 30%;
-  padding: 0.10%;
-  border-radius:  20% 20% 20% 20%;
+  margin: 12% 25% 0 25%;
+  padding: 0.30%;
+  border-radius:  18% 18% 18% 18%;
+}
+
+.text {
+  margin: 2% 0 0 1%;
+}
+
+.author {
+  text-align: center;
 }
 
 h1 {
@@ -54,7 +61,7 @@ h3 {
 
 footer {
   text-align: center;
-  margin: 15% 2% 0 2%;
+  margin: 12% 2% 0 2%;
   background-color: #007ACC;
 }
 
