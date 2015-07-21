@@ -39,15 +39,26 @@ nav a:hover {
   text-align: left;
   margin: 10% 25% 0 25%;
   padding: 0.30%;
-  border-radius:  18% 18% 18% 18%;
+  border-radius:  3% 3% 3% 3%;
 }
 
 .blog_text {
   color: orange;
   text-decoration: underline;
   font-weight: bold;
-  margin: 2% 0 0 1%;
+  margin: 2% 0 0 0;
   text-align: center;
+}
+
+.body_text {
+  text-align: left;
+}
+
+.blog_image img {
+  margin: 2% 0 2% 12%;
+  border: 2px double black;
+  width: 75%;
+  heigh: 75%;
 }
 
 .body_links a {
