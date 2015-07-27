@@ -22,8 +22,23 @@
       </section>
       <section class="body_text">
         <p class="blog_text">DBC-Technical Blog:</p>
-          <p>Date:<br/>Entry #:</p>
-          <p>Commentary:</p>
+          <p>Date: 07/26/15<br/>Entry #: 2</p>
+          <p>Commentary: So it's been a few days and I wanted to share with the world a very important concept in Ruby; Arrays & Hashes, their purposes and differences with examples to boot!</p>
+          <p>Arrays:
+            <br>Arrays are ordered collections of objects. As a variable can contain one specific assignment at a given time, arrays can be told to hold multiple: integers, floats, strings, even other arrays! When called upon by using array name[element position] you can retrieve what is stored in that specific position. Keep in mind the first location starts with 0. This comes in handy when building, (for example) a grocery list. 'groceries' can be the name of the array whereas the items on the list are the elements inside the array.
+            <p class="blog_example">For example:
+            <br>groceries = ['milk', 'butter', 'cheese']
+            <br>puts letters[0] would ouput 'milk'.
+          </p>
+          <p>Hashes:
+            <br>Hashes are considered a collection of key-value pair where each key points to a specific set value. Best way to think of this is a restaurant menu. The item is considered the key, the value is the associated price.
+            <p class="blog_example">For example:
+            <br>menu = {"slice of pizza" => $2.49, "hot dog" => $1.49, "soda" => $0.49}
+            <br>puts menu["slice of pizza"] would output '$2.49'
+            <br>
+            <p>As we can see, one is moreso used to create lists and to call on objects' position to return a value (Array), the other is to create a specific set of 'key-value' rules such that when called upon a key, returns a single value output (Hashes).</p>
+          </p>
+
       </section>
 
       <footer>
