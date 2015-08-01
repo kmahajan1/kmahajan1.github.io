@@ -18,14 +18,35 @@ nav {
   border: 1px white solid;
 }
 
-nav a {
+nav ul a {
   color: white;
   margin: 8%;
 }
 
-nav a:hover {
+nav ul a:hover {
   color: #7F0028;
 }
+
+
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    display: inline;
+    position: relative;
+}
+nav ul ul {
+    position: absolute;
+    display: none;
+}
+nav li:hover ul {
+    display: block;
+}
+
+
+
 
 .body_image {
   float: left;
