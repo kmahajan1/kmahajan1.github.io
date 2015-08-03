@@ -32,7 +32,33 @@
         <p class="blog_text">DBC-Technical Blog:</p>
           <p>Date: 08.01.15<br/>Entry #: 4</p>
           <p>Commentary:</p>
-          So today...
+            So today...I wanted to discuss an important Enumerable method called 'map'. The Enumerable, (a module that includes the ability to search/sort) includes a method called "map" that allows us to iterate over every element in an array and whatever gets returned in that block of code, gets added to a new array.
+            <br>
+            <br>
+            For example:
+            <br>
+            <br>
+            arr = [12,23,45,56,67,78,89,90,100]
+            <br>
+            /defines an array with numerical digits.
+            <br>
+            <br>
+            p arr
+            <br>
+            /prints results of the array to user.
+            <br>
+            <br>
+            p arr.map(&:odd?).select { | e | e == true}
+            <br>
+            /takes the array, applies the map method and iterates over every element running a block of code that checks every element; if any elements are found to be odd, places them into another array and prints it out in an array format.
+            <br>
+            <br>
+            p arr.map(&:odd?).select { | e | e == true}.count
+            <br>
+            /counts the amount of true values that have been found from the array and prints it to user in a numerical value.
+            <br>
+            <br>
+            I wanted to give credit, where credit is due as this gentleman did a fine job explaining visually what is actually going on: <a href="https://www.youtube.com/watch?feature=player_embedded&v=1zWj9BReAX8">MattStopaDev</a>
       </section>
 
       <footer>
