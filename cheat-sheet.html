@@ -1,0 +1,119 @@
+<html>
+<head>
+  <title>Ruby BASICS Cheat Sheet</title>
+  <link rel="stylesheet">
+  <style type="text/css">
+    * {
+      font-family: arial;
+    }
+
+    h1 {
+      color: red;
+      text-align: center;
+      text-decoration: underline;
+    }
+
+    h2 {
+      text-decoration: underline;
+    }
+
+    .code {
+      background-color: black;
+      color: white;
+      border-radius: 3px;
+    }
+
+    #central{
+      width: 80%;
+      display: block;
+      margin: auto;
+    }
+  </style>
+</head>
+<body>
+  <div id="central">
+
+
+<h1>Ruby BASICS Cheat Sheet</h1>
+<br>
+<h2>Information Types:</h2>
+  <p>
+    Ruby has a few different types of information types; below are some examples of what defines each and how they're properly formatted.<br><br>
+
+    Strings: Anything within quotes are considered strings.<br>
+    Numbers: More commonly referred to as integers, are simply written as digits.<br>
+    Booleans: Something that results in either a true or false condition.<br>
+    Arrays: 'Lists' of items in which each item within the brackets are elements which coorespond to specific positions beginning with '0'.<br>
+    Hashes: Detailed lists in which each key, (characters in quotes) point to a specific value, (key/value pairs).<br>
+  </p>
+  <p class="code">
+  "Hello World!"<br>
+  12345<br>
+  true/false<br>
+  groceries = ["Milk", "Eggs", "Cheese", "Bread"]<br>
+  menu = {"Pizza" => 3.50, "Pasta" => 5.50, "Soda" => 0.99}<br>
+  </p>
+<h2>Methods/Operators:</h2>
+  <p>
+    In Ruby, everything is an object, in order for objects to talk to one another there are what are called 'Methods'. Methods provide action to have performed on an object to actually 'do' something in code.<br><br>
+
+    In Ruby, there are two central types of operators: Arithmetic and Comparison Operators. Arithmetic operators allow mathematical equations to be performed, whereas comparison operators allow the ability to compare between two objects.<br>
+  </p>
+  <p class="code">
+    String Methods: .reverse, .capitalize, .upcase, .downcase, .swapcase<br>
+    Number Methods: .between?, .next, .odd?, .even?<br>
+    Array Methods: .delete, .count, .join<br>
+    Hash Methods: .compare, .flatten<br><br>
+
+    Number Operators: +, -, *, /, **, %<br>
+    Comparison Operators: ==, ===, !=, ||, &&, !, ?, :, <, >, <=, >=<br>
+  </p>
+<h2>General Ruby Syntax:</h2>
+  <p>
+    In Ruby, the general format of creating working code is as follows below:
+  </p>
+  <p class="code">
+    def year(current)<br>
+    &nbsp; puts "It's #{current}!"<br>
+    end<br>
+    year(2015)<br><br>
+
+    >> It's 2015!
+  </p>
+  <p>
+    def = states we're defining a method variable called 'year'.<br>
+    year = a variable created to represent the name of the method.<br>
+    (current) = considered a 'Parameter' that the user can pass in a value by calling it, (as we will in the last line).<br>
+    puts = allows the string "It's 2015!" to be displayed on the user-console.<br>
+    end = closes the defined method tag.<br>
+    year(2015) = 'passes in' the variable 2015 into 'current', which then is interpolated within the #{} syntax of the puts line to output the next line.<br>
+  </p>
+<h2>Displaying to Console:</h2>
+  <p>
+    In Ruby, there are a few ways to display content to the user after a program runs.<br><br>
+
+    puts = DOESN'T return the value of the method/variable, DOES print to console, & DOES automatically return a new line after the return statement.<br><br>
+
+    print = puts = DOES return the value of the method/variable, DOES print to console, & DOES automatically return a new line after the return statement.<br><br>
+
+    p = DOESN'T return the value of the method/variable. DOES print to console, & DOESN'T automatically return a new line after the return statement.<br><br>
+
+
+     Below are some examples of how they differ:
+  </p>
+  <p class="code">
+    puts "Kunal"<br>
+    >>Kunal<br>
+    >>nil<br><br>
+    print "Kunal"<br>
+    >>Kunalnil<br><br>
+    p "Kunal"<br>
+    >>"Kunal"<br>
+    >>"Kunal"
+  </p>
+
+
+</div>
+
+</body>
+</html>
