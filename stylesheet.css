@@ -1,9 +1,9 @@
 body {                          /*Edits the Main Body*/
-  background-color: black;
+  background-color: #0B2545;
 }
 
 header {                        /*Edits the Main Header*/
-  background-color: #007ACC;
+  background-color: #8DA9C4;
   margin: 2%;
   padding: 1%;
   border: 1px white solid;
@@ -12,7 +12,7 @@ header {                        /*Edits the Main Header*/
 ul {                            /*Edits the Main Navigation Bar*/
   padding: 0 0 0 0;
   list-style: none;
-  background: #007ACC;
+  background: #134074;
   margin: 2%;
   border: 1px white solid;
   text-align: center;
@@ -34,12 +34,12 @@ ul li a {                        /*Edits the main links of Navigation Bar*/
 
 ul li a:hover {
   color: #fff;
-  background: #007ACC;
+  background: #8DA9C4;
 }
 
 ul li ul.dropdown {                /*Edits the contents of Dropdown list*/
   min-width: 125px;
-  background: black;
+  background: #0B2545;
   display: none;
   position: absolute;
   z-index: 999;
@@ -59,13 +59,13 @@ ul li ul.dropdown li{
   float: left;
   margin: 8% 0 0 6%;
 }
-
+                                    /*Edits the background of content*/
 .body_text {
-  color: white;
-  background-color: #007ACC;
+  color: black;
+  background-color: #8DA9C4;
   text-align: center;
   margin: 10% 25% 0 25%;
-  padding: 0.30%;
+  padding: 0.80%;
   border-radius:  18% 18% 18% 18%;
 }
 
@@ -95,7 +95,7 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: #007ACC;
+  background-color: #134074;
   text-align: center;
   border: 1px white solid;
 }
@@ -103,6 +103,7 @@ footer {
 footer a {
   margin: 0 8% 0 8%;
   color: white;
+  font-weight: bold;
 }
 
 footer a:hover {
